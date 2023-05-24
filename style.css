@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #AEE2FF;
+}
+.heading {
+  margin-top: 5%;
+  font-weight: bold;
+}
+
+.main-heading {
+  margin-top: 5%;
+  color: #fff;
+  font-weight: 700;
+}
+.number {
+  padding: 26px;
+  background-color: #fff;
+  width: 22vw;
+  height: 18vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  
+}
+.number-text{
+  font-weight: 700;
+  /* font-size: 600%; */
+}
+
+.guess{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  height: 8vh;
+  width: 12vw;
+}
+.btn-con{
+  margin-top: 3%;
+  /* margin-left: 8%; */
+}

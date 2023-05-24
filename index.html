@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    />
+    <!-- manual Css link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number | Home</title>
+  </head>
+  <body>
+    <section class="container text-center">
+      <h class="heading display-1">Guess The Number</h>
+      <h2 class="heading display-3">(Between 1 to 50)</h2>
+    </section>
+    <br />
+
+    <div class="text-center container">
+      <h1 class="display-1 main-heading">Guess My Number!</h1>
+    </div>
+
+    <div class="number text-center rounded float-none">
+      <h1 class="display-1 number-text">?</h1>
+    </div>
+
+    <!-- grid Container -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <input
+            type="number"
+            class="guess rounded display-5"
+            placeholder="Enter Number"
+          />
+        </div>
+        <div class="col btn-con">
+          <button class="btn btn-outline-success check">Check!</button>
+          <button class="btn again btn-outline-danger ">
+            Reset
+          </button>
+        </div>
+        <div class="col h1">
+          <p class="message">Start guessing...</p>
+          <p class="label-score">💯 Score: <span class="score">100</span></p>
+          <p class="label-highscore">
+            🥇 Highscore: <span class="highscore">0</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
