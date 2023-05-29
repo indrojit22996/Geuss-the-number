@@ -19,7 +19,7 @@ body {
   padding: 26px;
   background-color: #fff;
   width: 22vw;
-  height: 18vh;
+  height: 12vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
@@ -27,16 +27,18 @@ body {
 }
 .number-text{
   font-weight: 700;
-  /* font-size: 600%; */
 }
 
 .guess{
   margin-top: 2%;
   margin-bottom: 5%;
-  height: 8vh;
+  height: 10vh;
   width: 12vw;
 }
 .btn-con{
   margin-top: 3%;
   /* margin-left: 8%; */
 }
+/* .number-text{
+ font-size: medium;
+} */

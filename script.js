@@ -25,6 +25,7 @@ check.addEventListener("click", function () {
     displayMessage("🎉 Correct Number!");
     document.querySelector(".number").textContent = secretNumber;
 
+
     document.querySelector("body").style.backgroundColor = "#60b387";
     if (score > highscore) {
       highscore = score;
@@ -48,8 +49,9 @@ document.querySelector(".again").addEventListener("click", function () {
   score = 100;
   secretNumber = Math.trunc(Math.random() * 50) + 1;
   displayMessage("Start guessing...");
+  document.querySelector(".number").classList.add("h1");
   document.querySelector(".score").textContent = score;
-  document.querySelector(".number").classList.add("display-6")
+  document.querySelector(".number").classList.add("h2")
   document.querySelector(".number").textContent = "Hidden Number";
   document.querySelector(".guess").value = "";
 
